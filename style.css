@@ -16,12 +16,34 @@
 
 /*
       ==============================================
+                  ****** GLOBAL ******
+      ==============================================
+ */
+
+.color-red {
+  color: #f72210;
+}
+.bg-color-red {
+  background-color: #f72210;
+}
+
+/*
+      ==============================================
                   ****** HEADER SECTION ******
       ==============================================
  */
 
+.top-header {
+  padding: 20px 10px 15px;
+}
+
 .newsweek-icon {
   width: 396px;
+  filter: invert(1);
+}
+
+.weather-icon {
+  height: 24px;
 }
 
 ul {
@@ -39,6 +61,16 @@ a:hover {
 
 /*
       ==============================================
-                  ****** GLOBAL ******
+                  ****** MEDIA QUERY ******
       ==============================================
  */
+
+ @media only screen and (max-width: 991px) {
+  .newsweek-icon { 
+    width: 132px;
+   }
+
+  .top-header {
+    padding: 0 0 0;
+  }
+}
