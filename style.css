@@ -81,6 +81,14 @@ a:hover {
   filter: invert(1);
 }
 
+.top-center-header {
+  border: 1px solid red;
+}
+
+.newsweek-icon {
+  border: 1px solid blue;
+}
+
 /*
       ==============================================
                   ****** MEDIA QUERY ******
@@ -92,7 +100,27 @@ a:hover {
     width: 132px;
    }
 
-   .subscribe-button {
+  .subscribe-button {
+    width: 129px;
+    height: 30px;
+    font-size: 18px;
+  }   
+
+  .fa-bars {
+    font-size: 30px;
+  }
+
+  .top-header {
+    padding: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .fa-bars {
+    font-size: 20px;
+  }
+
+  .subscribe-button {
     border-radius: 50px;
     margin: 0 12px 0 18px;
     width: 94px;
@@ -100,11 +128,4 @@ a:hover {
     font-size: 13px;
   }   
 
-  .fa-bars {
-    font-size: 20px;
-  }
-
-  .top-header {
-    padding: 15px;
-  }
 }
