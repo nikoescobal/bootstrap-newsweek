@@ -27,6 +27,10 @@
   background-color: #f72210;
 }
 
+header {
+  font-family: 'Roboto Condensed', serif;
+}
+
 /*
       ==============================================
                   ****** HEADER SECTION ******
@@ -59,6 +63,24 @@ a:hover {
   color: #333;
 }
 
+.fa-bars {
+  filter: invert(1);
+}
+
+.subscribe-button {
+  padding: 0 12px;
+  border-radius: 50px;
+  margin: 0 12px 0 18px;
+  border: transparent;
+  background-color: #FFE400;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.fa-user-alt {
+  filter: invert(1);
+}
+
 /*
       ==============================================
                   ****** MEDIA QUERY ******
@@ -70,7 +92,19 @@ a:hover {
     width: 132px;
    }
 
+   .subscribe-button {
+    border-radius: 50px;
+    margin: 0 12px 0 18px;
+    width: 94px;
+    height: 24px;
+    font-size: 13px;
+  }   
+
+  .fa-bars {
+    font-size: 20px;
+  }
+
   .top-header {
-    padding: 0 0 0;
+    padding: 15px;
   }
 }
