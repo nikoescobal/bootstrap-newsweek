@@ -23,12 +23,13 @@
 .color-red {
   color: #f72210;
 }
+
 .bg-color-red {
   background-color: #f72210;
 }
 
 header {
-  font-family: 'Roboto Condensed', serif;
+  font-family: "Roboto Condensed", serif;
 }
 
 /*
@@ -72,7 +73,7 @@ a:hover {
   border-radius: 50px;
   margin: 0 12px 0 18px;
   border: transparent;
-  background-color: #FFE400;
+  background-color: #ffe400;
   font-size: 18px;
   font-weight: bold;
 }
@@ -81,30 +82,22 @@ a:hover {
   filter: invert(1);
 }
 
-.top-center-header {
-  border: 1px solid red;
-}
-
-.newsweek-icon {
-  border: 1px solid blue;
-}
-
 /*
       ==============================================
                   ****** MEDIA QUERY ******
       ==============================================
  */
 
- @media only screen and (max-width: 991px) {
-  .newsweek-icon { 
+@media only screen and (max-width: 991px) {
+  .newsweek-icon {
     width: 132px;
-   }
+  }
 
   .subscribe-button {
     width: 129px;
     height: 30px;
     font-size: 18px;
-  }   
+  }
 
   .fa-bars {
     font-size: 30px;
@@ -126,6 +119,5 @@ a:hover {
     width: 94px;
     height: 24px;
     font-size: 13px;
-  }   
-
+  }
 }
